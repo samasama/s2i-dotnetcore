@@ -5,15 +5,15 @@
         "name": "dotnet-pgsql-persistent",
         "annotations": {
             "openshift.io/display-name": ".NET Core + PostgreSQL (Persistent)",
-            "description": "An example .NET Core application with a PostgreSQL database. For more information about using this template, including OpenShift considerations, see https://github.com/redhat-developer/s2i-dotnetcore.",
+            "description": "An example .NET Core application with a PostgreSQL database. For more information about using this template, including OpenShift considerations, see https://github.com/samasama/s2i-dotnetcore.",
             "tags": "quickstart,dotnet",
             "iconClass": "icon-dotnet",
             "template.openshift.io/provider-display-name": "Red Hat, Inc.",
-            "template.openshift.io/documentation-url": "https://github.com/redhat-developer/s2i-dotnetcore",
+            "template.openshift.io/documentation-url": "https://github.com/samasama/s2i-dotnetcore",
             "template.openshift.io/support-url": "https://access.redhat.com"
         }
     },
-    "message": "The following service(s) have been created in your project: ${NAME}, ${DATABASE_SERVICE_NAME}.\n\nFor more information about using this template, including OpenShift considerations, see https://github.com/redhat-developer/s2i-dotnetcore.",
+    "message": "The following service(s) have been created in your project: ${NAME}, ${DATABASE_SERVICE_NAME}.\n\nFor more information about using this template, including OpenShift considerations, see https://github.com/samasama/s2i-dotnetcore.",
     "labels": {
         "template": "dotnet-pgsql-persistent"
     },
@@ -469,7 +469,7 @@
             "displayName": "Git Repository URL",
             "required": true,
             "description": "The URL of the repository with your application source code.",
-            "value": "https://github.com/redhat-developer/s2i-aspnet-musicstore-ex.git"
+            "value": "https://github.com/samasama/s2i-aspnet-musicstore-ex.git"
         },
         {
             "name": "SOURCE_REPOSITORY_REF",

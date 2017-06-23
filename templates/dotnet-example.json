@@ -9,7 +9,7 @@
             "tags": "quickstart,dotnet,.net",
             "iconClass": "icon-dotnet",
             "template.openshift.io/provider-display-name": "Red Hat, Inc.",
-            "template.openshift.io/documentation-url": "https://github.com/redhat-developer/s2i-dotnetcore",
+            "template.openshift.io/documentation-url": "https://github.com/samasama/s2i-dotnetcore",
             "template.openshift.io/support-url": "https://access.redhat.com"
         }
     },
@@ -263,7 +263,7 @@
             "displayName": "Git Repository URL",
             "description": "The URL of the repository with your application source code.",
             "required": true,
-            "value": "https://github.com/redhat-developer/s2i-dotnetcore-ex.git"
+            "value": "https://github.com/samasama/s2i-dotnetcore-ex.git"
         },
         {
             "name": "SOURCE_REPOSITORY_REF",
