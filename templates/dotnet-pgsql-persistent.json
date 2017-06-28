@@ -475,7 +475,7 @@
             "name": "SOURCE_REPOSITORY_REF",
             "displayName": "Git Reference",
             "description": "Set this to a branch name, tag or other ref of your repository if you are not using the default branch.",
-            "value": "rel/1.1-example"
+            "value": "rel/1.1-modifications"
         },
         {
             "name": "CONTEXT_DIR",
